@@ -3,7 +3,7 @@ package org.svaltqt.Modelo;
 public class TarjetaCredito {
 
     private String Tipo;
-    private int numero;
+    private String numero;
     private String fecha;
     private String nombre;
     private  String apellido;
@@ -18,11 +18,11 @@ public class TarjetaCredito {
         Tipo = tipo;
     }
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 
